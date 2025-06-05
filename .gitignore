@@ -1,0 +1,19 @@
+# Ignore virtual environments
+myenv/
+env/
+venv/
+
+# Python files
+__pycache__/
+*.pyc
+*.pyo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# VS Code
+.vscode/
+
+# Jupyter
+.ipynb_checkpoints/
