@@ -1,12 +1,10 @@
-﻿# Object Tracker using OpenCV
-
 # 🧠 Object Tracker using OpenCV
 
 This project demonstrates real-time object tracking using OpenCV's built-in tracking algorithms such as **KCF**, **CSRT**, and **MIL**. You can track objects from a webcam or video file and view FPS, success status, and execution time per frame.
 
 ## 🎯 Features
 
-- 📹 Supports webcam and video file inputs
+- 📹 Supports external/webcam and video file inputs
 - 🎯 Real-time object tracking with multiple OpenCV algorithms
 - 🕒 Displays FPS and total execution time
 - 📈 Prints performance summary at the end
@@ -27,16 +25,14 @@ This project demonstrates real-time object tracking using OpenCV's built-in trac
 ```bash
 git clone https://github.com/praveensunkara19/ObjectTracker.git
 cd ObjectTracker
+
 2. Set up virtual environment (optional but recommended)
-bash
-Copy
-Edit
+```bash
 python -m venv myenv
 myenv\Scripts\activate    # On Windows
+
 3. Install dependencies
-bash
-Copy
-Edit
+```bash
 pip install -r requirements.txt
 Note: Use opencv-contrib-python for tracker support.
 
@@ -44,62 +40,41 @@ Note: Use opencv-contrib-python for tracker support.
 Python 3.8+
 
 opencv-contrib-python==4.5.5.64
-
 imutils
-
 numpy==1.23.5
 
 ▶️ How to Run
+
 Using Webcam:
-bash
-Copy
-Edit
+```bash
 python opencv_object_tracker.py --tracker kcf
+
 Using Video:
-bash
-Copy
-Edit
+```bash
 python opencv_object_tracker.py --video path/to/video.mp4 --tracker csrt
+
 During Execution:
 Press S to select an object to track
-
 Press Q to quit the application
 
 📊 Tracking Summary Output
 At the end of tracking, you will get:
 
-pgsql
-Copy
-Edit
 [SUMMARY]
+"Tracker<csrt>
 Total frames tracked: 100
 Total tracking execution time: 4.2156 seconds
 Average tracker.update() time: 0.042156 seconds
 Total real time spent (including display, etc.): 5.1204 seconds
 🧠 Sample Output Frame
 
+
 🙋 Author
 Praveen Sunkara
-
 GitHub: @praveensunkara19
-
 Email: praveesunkara19@gmail.com
 
 📜 License
 This project is licensed under the MIT License.
-
-yaml
-Copy
-Edit
-
 ---
 
-### ✅ Next Steps
-
-1. Save this as `README.md` in your repo folder.
-2. Push to GitHub:
-
-```bash
-git add README.md
-git commit -m "Added detailed README"
-git push origin main
