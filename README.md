@@ -45,13 +45,18 @@ numpy==1.23.5
 
 ▶️ How to Run
 
+for csrt: 
+```bash
+python ObjectTracker_csrt.py
+
+for - csrt | kcf | mil 
 Using Webcam:
 ```bash
-python opencv_object_tracker.py --tracker kcf
+python ObjectTracker.py --tracker kcf
 
 Using Video:
 ```bash
-python opencv_object_tracker.py --video path/to/video.mp4 --tracker csrt
+python ObjectTracker.py --video path/to/video.mp4 --tracker csrt   #test_car.mp4
 
 During Execution:
 Press S to select an object to track
@@ -68,6 +73,7 @@ Average tracker.update() time: 0.042156 seconds
 Total real time spent (including display, etc.): 5.1204 seconds
 🧠 Sample Output Frame
 
+![alt text](image.png)
 
 🙋 Author
 Praveen Sunkara
