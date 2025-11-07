@@ -3,7 +3,7 @@
 This project demonstrates real-time object tracking using OpenCV's built-in tracking algorithms such as **KCF**, **CSRT**, and **MIL**. You can track objects from a webcam or video file and view FPS, success status, and execution time per frame.
 --
 <p align="center">
-  <img src="demo.gif" alt="demo image3" width="600"/>
+  <img src="demo.gif" alt="demo image3" width="450"/>
 </p>
 
 ## Features
@@ -16,7 +16,7 @@ This project demonstrates real-time object tracking using OpenCV's built-in trac
 
 # Demo Image:
 <p align="center">
-  <img src="result/image.png" alt="demo image3" width="450"/>
+  <img src="result/image.png" alt="demo image3" width="600"/>
 </p>
 
 ## 🚀 Supported Trackers
